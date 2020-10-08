@@ -1,5 +1,24 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    "docker:enableMajor",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+    ":maintainLockFilesWeekly",
+    ":semanticCommits"
+  ],
+  "labels": ["renovate"],
+  "major": {
+    "labels": ["major", "renovate"]
+  },
+  "minor": {
+    "labels": ["minor", "renovate"]
+  },
+  "patch": {
+    "labels": ["patch", "renovate"]
+  },
+  "pin": {
+    "labels": ["pin", "renovate"]
+  },
+  "pinDigests": true
 }
