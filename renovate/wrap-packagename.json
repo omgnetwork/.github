@@ -1,0 +1,3 @@
+{
+  "extends": ["local>omgnetwork/.github:renovate/wrap(packageNames, {{arg0}})"]
+}

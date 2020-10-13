@@ -1,0 +1,22 @@
+{
+  "packageRules": [
+    {
+      "extends": ["local>omgnetwork/.github:renovate/bodyisreleasenotes"],
+      "{{arg0}}": ["{{arg1}}"],
+      "semanticCommitType": "feat",
+      "updateTypes": "major"
+    },
+    {
+      "extends": ["local>omgnetwork/.github:renovate/bodyisreleasenotes"],
+      "{{arg0}}": ["{{arg1}}"],
+      "semanticCommitType": "feat",
+      "updateTypes": "minor"
+    },
+    {
+      "extends": ["local>omgnetwork/.github:renovate/bodyisreleasenotes"],
+      "{{arg0}}": ["{{arg1}}"],
+      "semanticCommitType": "fix",
+      "updateTypes": "patch"
+    }
+  ]
+}

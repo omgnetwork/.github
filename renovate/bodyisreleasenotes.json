@@ -1,0 +1,3 @@
+{
+  "commitBody": "{{#logJSON.versions}}##[{{version}}]({{releaseNotes.url}}) {{date}}\n{{releaseNotes.body}}\n{{/logJSON.versions}}"
+}
