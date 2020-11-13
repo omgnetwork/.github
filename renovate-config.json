@@ -1,4 +1,7 @@
 {
+  "digest": {
+    "automerge": true
+  },
   "extends": [
     "config:base",
     "docker:enableMajor",
