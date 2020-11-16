@@ -10,6 +10,12 @@
     ":maintainLockFilesWeekly",
     ":semanticCommits"
   ],
+  "digest": {
+    "extends": [
+      "schedule:weekly"
+    ],
+    "labels": ["digest", "renovate"]
+  },
   "labels": ["renovate"],
   "major": {
     "labels": ["major", "renovate"]
@@ -23,5 +29,6 @@
   "pin": {
     "labels": ["pin", "renovate"]
   },
-  "pinDigests": true
+  "pinDigests": true,
+  "timezone": "Asia/Bangkok"
 }
