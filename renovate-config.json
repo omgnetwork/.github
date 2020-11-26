@@ -1,7 +1,4 @@
 {
-  "digest": {
-    "automerge": true
-  },
   "extends": [
     "config:base",
     "docker:enableMajor",
@@ -11,6 +8,7 @@
     ":semanticCommits"
   ],
   "digest": {
+    "automerge": true,
     "extends": [
       "schedule:weekly"
     ],
